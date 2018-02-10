@@ -1,0 +1,10 @@
+/build_dir
+/bin
+/dl
+packages/Packages
+packages/Packages.gz
+/.profiles.mk
+/tmp
+/staging_dir
+/files
+/single_img_dir
