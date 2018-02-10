@@ -210,7 +210,7 @@ si: FORCE
 	cp $(TOPDIR)/bin/ipq806x/openwrt* $(TOPDIR)/single_img_dir/IPQ4019.ILQ.5.0/common/build/ipq
 	cp $(TOPDIR)/single_img_dir/IPQ4019.ILQ.5.0/common/build/*-flash.conf $(TOPDIR)/single_img_dir/IPQ4019.ILQ.5.0/common/build/ipq
 	cd single_img_dir/IPQ4019.ILQ.5.0/common/build; \
-	python pack.py -t nor -B -F boardconfig_premium -o ../../../nor-ipq40xx-single.img ./ipq
+	python pack.py -t nor -B -F boardconfig_premium -o ../../../qsdk-b1300-$(shell cat $(TARGET_DIR)/etc/glversion).bin ./ipq
 
 info:
 	(unset PROFILE FILES PACKAGES MAKEFLAGS; $(MAKE) -s _call_info)
