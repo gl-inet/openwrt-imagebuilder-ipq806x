@@ -8,7 +8,7 @@
 
 ```bash  
 $ sudo apt-get update
-$ sudo apt-get install subversion build-essential git-core libncurses5-dev zlib1g-dev gawk flex quilt libssl-dev xsltproc libxml-parser-perl mercurial bzr ecj cvs unzip git wget
+$ sudo apt-get install device-tree-compiler subversion build-essential git-core libncurses5-dev zlib1g-dev gawk flex quilt libssl-dev xsltproc libxml-parser-perl mercurial bzr ecj cvs unzip git wget
 ```  
 
 ## Download the Source  
