@@ -1,8 +1,9 @@
 /build_dir
 /bin
 /dl
-packages/Packages
-packages/Packages.gz
+Packages
+Packages.gz
+Packages.sig
 /.profiles.mk
 /tmp
 /staging_dir
