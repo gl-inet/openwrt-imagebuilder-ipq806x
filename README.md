@@ -32,7 +32,7 @@ We can use gl_image utility to create image quickly. You can issue
 For B1300:  
 ```bash  
 Stoke firmware:  
-$ ./gl_image -i v1 -p QSDK_Premium -v 2.27  
+$ ./gl_image -i clean -p QSDK_Premium -v 2.27  
 $ make si
 ```  
 
