@@ -4,8 +4,6 @@
 	},
 	"profiles": {
 		"QSDK_Premium": {
-			"include": "",
-			"exclude": ""
 		}
 	}
 }

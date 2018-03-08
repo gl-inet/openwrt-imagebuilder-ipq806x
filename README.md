@@ -21,7 +21,8 @@ $ cd openwrt-imagebuilder-ipq806x
 ## Configuration  
 
 You can change images.json file to install or remove packages for your  
-preference.  
+preference. Note that "-pkgname" in the package list means remove "pkgname"  
+from the package list.
 
 ## Create Image  
 
@@ -30,6 +31,7 @@ We can use gl_image utility to create image quickly. You can issue
 
 For B1300:  
 ```bash  
+Stoke firmware:  
 $ ./gl_image -i v1 -p QSDK_Premium -v 2.27  
 $ make si
 ```  
