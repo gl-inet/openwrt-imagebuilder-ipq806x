@@ -29,18 +29,20 @@ from the package list.
 We can use gl_image utility to create image quickly. You can issue  
 `gl_image --help` for help.  
 
-For B1300:  
 ```bash  
 Stoke firmware:  
-$ ./gl_image -i clean -p QSDK_Premium -v 2.27  
+$ ./gl_image
+$ make si
+
+Clean firmware with files directory and custom packages:
+$ ./gl_image -t clean -p '-wpad-mini wpad' -f ./files
 $ make si
 ```  
 
 Note that kernel and rootfs is separated with imagebuilder, we should issue  
 `make si` to merge them, and create single image.  
 
+Available image or profile is listed in images.json.  
+
 __Flash image using bin file located at single_img_dir.__  
 
-We can use ourselves files with -f option, value is files directory namt.  
-
-Available image or profile is listed in images.json.  
